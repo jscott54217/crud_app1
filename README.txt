@@ -7,7 +7,7 @@ Assuming no interfering docker images named pythonimage:
 4) Run the following commands in the shell:
 docker build -t pythonimage .
 docker run -ti pythonimage
-
+5) Note - docker commands may have to be prefaced with "winpty" if on a Windows device
 
 For considerations regarding using/storing info such as SSN:
 - Use a secure backend database management system i.e. PostgreSQL
