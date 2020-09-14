@@ -209,7 +209,7 @@ def view_agg():
                     else:
                         claimsPerYear[yr] += 1
     
-    print('Total covered amount for all claims: $' + str(totalCovered))
+    print('\nTotal covered amount for all claims: $' + str(totalCovered))
     if len(claimsPerYear) > 0:
         print('Claims per year:')
         for k,v in claimsPerYear.items():
@@ -283,7 +283,7 @@ def continue_selection():
 empty_db()
 
 
-# In[15]:
+# In[16]:
 
 
 keepGoing = 'y'
